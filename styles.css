@@ -1,0 +1,35 @@
+:root{
+    --primary-color:#035752;
+    --secondary-color:#D19A29;
+    --primary-font:font-family: 'Roboto', sans-serif;
+    --secondary-font:font-family: 'Roboto', sans-serif;
+    --accent-font: 'Dancing Script', cursive;
+}
+body{
+    font-family: var(--secondary-font);
+}
+h1{
+    font-family:var(--accent-font);
+}
+h2, h3, h4, h5, h6{
+    font-family: var(--primary-font);
+}
+img{
+    margin:0px auto;
+    padding:0px;
+}
+
+.logo-font {
+    font-family: var(--accent-font);
+    
+}
+
+
+
+.hero-square{
+    background-color:#cee1e0 ;
+    color:white;
+    padding: 80px 100px;
+    
+    
+}
