@@ -13,10 +13,13 @@ h1{
 }
 h2, h3, h4, h5, h6{
     font-family: var(--primary-font);
+
 }
-img{
-    margin:0px auto;
-    padding:0px;
+
+
+.logo{
+
+    max-height: 40px;
 }
 
 .logo-font {
@@ -24,12 +27,33 @@ img{
     
 }
 
-
+.active{
+    color: var(--primary-color)!important;
+    
+}
+.nav-item{
+    padding: 0 12px;
+}
+.nav-link:hover{
+    color: var(--secondary-color) !important;
+}
 
 .hero-square{
     background-color:#cee1e0 ;
     color:white;
-    padding: 80px 100px;
+    padding: 80px 90px;}
     
-    
+.IG-link{
+    color: var(--primary-color);
+    padding-left: 5px;
+}
+.IG-link:hover{
+    color:var(--secondary-color);
+}
+.subtitle{
+    text-transform: uppercase;
+    color:var(--primary-color);
+}
+.hero-text{
+    color:darkolivegreen;
 }
