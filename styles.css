@@ -39,9 +39,10 @@ h2, h3, h4, h5, h6{
 }
 
 .hero-square{
-    background-color:#cee1e0 ;
-    color:white;
+    background-color:#F8F4F1;
+    color:#035752;
     padding: 80px 90px;}
+
     
 .IG-link{
     color: var(--primary-color);
@@ -54,6 +55,6 @@ h2, h3, h4, h5, h6{
     text-transform: uppercase;
     color:var(--primary-color);
 }
-.hero-text{
-    color:darkolivegreen;
+.fa-heart{
+    color:palevioletred;
 }
